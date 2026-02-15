@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Inter", "Segoe UI", system-ui, sans-serif;
+  --ink: #111827;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-2: #1d4ed8;
+  --paper: #ffffff;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: #f3f4f6;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.glass-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  backdrop-filter: none;
+}
